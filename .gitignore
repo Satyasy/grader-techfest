@@ -1,0 +1,62 @@
+# ==========================================
+# Terraform State & Secrets
+# ==========================================
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ==========================================
+# Kredensial AWS & Data Rahasia Peserta Lomba
+# ==========================================
+.env
+.env.*
+peserta.csv
+rootkey.csv
+credentials.csv
+*.pem
+*.key
+*.pub
+
+# ==========================================
+# Output Penilaian Otomatis (Generated Artifacts)
+# ==========================================
+evaluasi_*.pdf
+evaluasi_*.md
+LEADERBOARD_*.pdf
+hasil_penilaian_*.csv
+console_log*.txt
+console_log*.json
+
+# ==========================================
+# Python Bytecode & Virtual Environments
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
